@@ -6,19 +6,24 @@
     <title>TravelYari-Easy Tutorials</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c35599ae17.js" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
     <div class="header">
         <nav id="navBar">
-            <img src="https://image.freepik.com/free-vector/cute-teddy-bear-logo-template_83738-274.jpg" class="logo">
+            <img src="images/Teddy.jpeg" class="logo">
             <ul class="nav-links">
                <li><a href="#" class="active">Popular Places</a></li>
                <li><a href="#">Travel Outside</a></li>
                <li><a href="#">Online Packages</a></li> 
             </ul>
-            <a href="#" class="register-btn">Register Now</a>
+            
             <i class="fas fa-bars" onclick="togglebtn()"></i>
+            <a href="register.html" class="register-btn">
+                Register Now</a>
         </nav>
         <div class="container">
             <h1 style="color:aqua; text-align:center">Find Your Next Story</h1>
@@ -40,7 +45,7 @@
                         <label>Guest</label>
                         <input type="text" placeholder="Add Guest">
                     </div>
-                    <button type="submit"><img src="search.png"></button>
+                    <button type="submit"><img src="images/search.png"></button>
                 </form>
             </div>
         </div>
@@ -48,39 +53,38 @@
     <div class="container">
     </br>
     </br>
-
         <h2 class="sub-title">Exclusives</h2>
         <div class="exclusives">
             <div>
-                <img src="image-1.png">
+                <img src="images/image-1.png">
                 <span>
                     <h3>London</h3>
                     <p>Starts @ $250</p>
                 </span>
             </div>
             <div>
-                <img src="image-2.png">
+                <img src="images/image-2.png">
                 <span>
                     <h3>Switzerland</h3>
                     <p>Starts @ $250</p>
                 </span>
             </div>
             <div>
-                <img src="image-3.png">
+                <img src="images/image-3.png">
                 <span>
                     <h3>Australia</h3>
                     <p>Starts @ $250</p>
                 </span>
             </div>
             <div>
-                <img src="image-4.png">
+                <img src="images/image-4.png">
                 <span>
                     <h3>France</h3>
                     <p>Starts @ $250</p>
                 </span>
             </div>
             <div>
-                <img src="image-5.png">
+                <img src="images/image-5.png">
                 <span>
                     <h3>Amsterdam</h3>
                     <p>Starts @ $250</p>
@@ -91,35 +95,35 @@
     <br>
         <div class="exclusives">
             <div>
-                <img src="image-6.png">
+                <img src="images/image-6.png">
                 <span>
                     <h3>Netherlands</h3>
                     <p>Starts @ $250</p>
                 </span>
             </div>
             <div>
-                <img src="image-7.png">
+                <img src="images/image-7.png">
                 <span>
                     <h3>New York</h3>
                     <p>Starts @ $250</p>
                 </span>
             </div>
             <div>
-                <img src="image-8.png">
+                <img src="images/image-8.png">
                 <span>
                     <h3>Chicago</h3>
                     <p>Starts @ $250</p>
                 </span>
             </div>
             <div>
-                <img src="image-9.png">
+                <img src="images/image-9.png">
                 <span>
                     <h3>San Fransisco</h3>
                     <p>Starts @ $250</p>
                 </span>
             </div>
             <div>
-                <img src="image-10.png">
+                <img src="images/image-10.png">
                 <span>
                     <h3>Shanghai</h3>
                     <p>Starts @ $250</p>
@@ -133,19 +137,19 @@
         <h2 class="sub-title">Trending Places</h2>
         <div class="trending">
             <div>
-                <img src="dubai.png">
+                <img src="images/dubai.png">
                 <h3>Dubai</h3>
             </div>
             <div>
-                <img src="new-york.png">
+                <img src="images/new-york.png">
                 <h3>New york</h3>
             </div>
             <div>
-                <img src="paris.png">
+                <img src="images/paris.png">
                 <h3>Paris</h3>
             </div>
             <div>
-                <img src="new-delhi.png">
+                <img src="images/new-delhi.png">
                 <h3>New Delhi</h3>
             </div>
         </div>
@@ -157,19 +161,19 @@
         <h2 class="sub-title">Travellers Stories</h2>
         <div class="stories">
             <div>
-                <img src="story-1.png">
+                <img src="images/story-1.png">
                 <p>Popular European countries with a budget of just $10,000</p>
             </div>
             <div>
-                <img src="story-2.png">
+                <img src="images/story-2.png">
                 <p>Popular Asian countries with a budget of just $10,000</p>
             </div>
             <div>
-                <img src="story-3.png">
+                <img src="images/story-3.png">
                 <p>Popular Southern countries with a budget of just $10,000</p>
             </div>
         </div>
-        <a href="#" class="start-btn"> Start Making Money</a>
+        <a href="listing.html" class="start-btn"> Start Books Rooms</a>
     <div class="about-msg">
         <h2>About TravelYari</h2>
         <p> TravelYari is an exciting new venture poised to revolutionize the world of tourism. 
